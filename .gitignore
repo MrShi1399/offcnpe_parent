@@ -1,0 +1,8 @@
+# Project exclude paths
+/offcnpe_controller/target/
+/offcnpe_interface/target/
+/offcnpe_job/target/
+/offcnpe_mobile/target/
+/offcnpe_pojo/target/
+/offcnpe_provider/target/
+/offcnpe_util/target/

@@ -1,0 +1,22 @@
+server:
+  port: 9004
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: offcnpe_mobile
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+
+dubbo:
+  scan:
+    base-packages: com.ujiuye.controller
+  registry:
+    address: zookeeper://10.10.33.170:2181
+    timeout: 100000
+
+excelFilePath: E:/code/uploadfile/offcnpe/excel/
+imgFilePath: E:/code/uploadfile/offcnpe/img/
